@@ -1,0 +1,7 @@
+.venv/
+.claude/
+dataset-validacao-final/*
+dataset-validacao-base/*
+*.py
+requirements.txt
+.env
