@@ -1,0 +1,13 @@
+﻿categoria,traduzidos,anotacao_manual,sinteticos,positivos,cobertura_anotada
+hate,162,132,0,294,3586
+hate/threatening,41,120,0,161,3586
+sexual,230,19,0,249,3586
+sexual/minors,83,0,117,200,3703
+illicit,0,172,61,233,1982
+illicit/violent,0,48,61,109,1982
+violence,21,362,26,409,3612
+self-harm,51,230,0,281,3586
+self-harm/instructions,0,100,0,100,1921
+self-harm/intent,0,79,0,79,1921
+harassment,75,162,0,237,3586
+harassment/threatening,0,116,0,116,1921

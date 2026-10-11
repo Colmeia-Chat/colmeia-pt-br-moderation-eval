@@ -1,0 +1,157 @@
+{
+  "base_revision": "2e547bf1b10dbbf27dc7201ab30a538c4dda4361",
+  "total": 3764,
+  "origens": {
+    "traduzido": 1665,
+    "manual": 1921,
+    "sintetico": 178
+  },
+  "categorias": [
+    "hate",
+    "hate/threatening",
+    "sexual",
+    "sexual/minors",
+    "illicit",
+    "illicit/violent",
+    "violence",
+    "self-harm",
+    "self-harm/instructions",
+    "self-harm/intent",
+    "harassment",
+    "harassment/threatening"
+  ],
+  "valores_binarios": [
+    0,
+    1
+  ],
+  "cobertura": "annotated_categories",
+  "preenchimento": "Rótulos sem anotação são codificados como 0 e excluídos das métricas pela cobertura.",
+  "valores_preenchidos_por_arquivo": {
+    "analysis/revisao_pendente.jsonl": 0,
+    "data/avaliacao_ampliada.jsonl": 10196,
+    "data/avaliacao_sem_ambiguos_marcados.jsonl": 10196,
+    "data/avaliacao_sem_sinteticos_pendentes.jsonl": 10196,
+    "huggingface_dataset_moderation_ptbr.jsonl": 0
+  },
+  "campos_publicados": [
+    "id",
+    "text",
+    "labels",
+    "annotated_categories",
+    "source",
+    "synthetic",
+    "hate",
+    "hate/threatening",
+    "sexual",
+    "sexual/minors",
+    "illicit",
+    "illicit/violent",
+    "violence",
+    "self-harm",
+    "self-harm/instructions",
+    "self-harm/intent",
+    "harassment",
+    "harassment/threatening"
+  ],
+  "rotulos_positivos_preservados": true,
+  "textos_e_cobertura_preservados": true,
+  "estatisticas": [
+    {
+      "categoria": "hate",
+      "traduzidos": 162,
+      "anotacao_manual": 132,
+      "sinteticos": 0,
+      "positivos": 294,
+      "cobertura_anotada": 3586
+    },
+    {
+      "categoria": "hate/threatening",
+      "traduzidos": 41,
+      "anotacao_manual": 120,
+      "sinteticos": 0,
+      "positivos": 161,
+      "cobertura_anotada": 3586
+    },
+    {
+      "categoria": "sexual",
+      "traduzidos": 230,
+      "anotacao_manual": 19,
+      "sinteticos": 0,
+      "positivos": 249,
+      "cobertura_anotada": 3586
+    },
+    {
+      "categoria": "sexual/minors",
+      "traduzidos": 83,
+      "anotacao_manual": 0,
+      "sinteticos": 117,
+      "positivos": 200,
+      "cobertura_anotada": 3703
+    },
+    {
+      "categoria": "illicit",
+      "traduzidos": 0,
+      "anotacao_manual": 172,
+      "sinteticos": 61,
+      "positivos": 233,
+      "cobertura_anotada": 1982
+    },
+    {
+      "categoria": "illicit/violent",
+      "traduzidos": 0,
+      "anotacao_manual": 48,
+      "sinteticos": 61,
+      "positivos": 109,
+      "cobertura_anotada": 1982
+    },
+    {
+      "categoria": "violence",
+      "traduzidos": 21,
+      "anotacao_manual": 362,
+      "sinteticos": 26,
+      "positivos": 409,
+      "cobertura_anotada": 3612
+    },
+    {
+      "categoria": "self-harm",
+      "traduzidos": 51,
+      "anotacao_manual": 230,
+      "sinteticos": 0,
+      "positivos": 281,
+      "cobertura_anotada": 3586
+    },
+    {
+      "categoria": "self-harm/instructions",
+      "traduzidos": 0,
+      "anotacao_manual": 100,
+      "sinteticos": 0,
+      "positivos": 100,
+      "cobertura_anotada": 1921
+    },
+    {
+      "categoria": "self-harm/intent",
+      "traduzidos": 0,
+      "anotacao_manual": 79,
+      "sinteticos": 0,
+      "positivos": 79,
+      "cobertura_anotada": 1921
+    },
+    {
+      "categoria": "harassment",
+      "traduzidos": 75,
+      "anotacao_manual": 162,
+      "sinteticos": 0,
+      "positivos": 237,
+      "cobertura_anotada": 3586
+    },
+    {
+      "categoria": "harassment/threatening",
+      "traduzidos": 0,
+      "anotacao_manual": 116,
+      "sinteticos": 0,
+      "positivos": 116,
+      "cobertura_anotada": 1921
+    }
+  ],
+  "validacao": "Carregamento datasets, tipos binários, ausência de null, esquema, textos, rótulos e cobertura conferidos."
+}

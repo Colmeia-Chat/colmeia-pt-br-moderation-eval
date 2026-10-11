@@ -1,0 +1,43 @@
+{
+  "dataset": "HRB25/pt-br-moderation-eval",
+  "configuracao": "default",
+  "split": "test",
+  "revision": "4505bf3333f2a8f6ede3c31e3021c5f4c81ec819",
+  "registros": 3764,
+  "categorias": [
+    "hate",
+    "hate/threatening",
+    "sexual",
+    "sexual/minors",
+    "illicit",
+    "illicit/violent",
+    "violence",
+    "self-harm",
+    "self-harm/instructions",
+    "self-harm/intent",
+    "harassment",
+    "harassment/threatening"
+  ],
+  "arquivo": "data/avaliacao_ampliada.jsonl",
+  "dataset_sha256": "d39c23d12867f79a94e8ea62a8a03864bf31850af83f292af3920687e72c59dc",
+  "modelo": "BERTimbau V1",
+  "pesos_sha256": "b188fad37563982bc0821dd026a5caedab75f4a143db43af00a8bf34e191e16a",
+  "limiares": {
+    "hate": 0.693,
+    "hate/threatening": 0.491,
+    "sexual": 0.95,
+    "sexual/minors": 0.619,
+    "illicit": 0.583,
+    "illicit/violent": 0.5,
+    "violence": 0.785,
+    "self-harm": 0.785,
+    "self-harm/instructions": 0.362,
+    "self-harm/intent": 0.73,
+    "harassment": 0.932,
+    "harassment/threatening": 0.564
+  },
+  "max_length": 128,
+  "treinamento_no_conjunto": false,
+  "recalibracao_no_conjunto": false,
+  "cobertura_de_anotacao": "annotated_categories; zeros fora da cobertura não entram nas métricas."
+}
