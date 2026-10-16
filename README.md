@@ -2,7 +2,7 @@
 
 ## Descrição
 
-PT-BR Moderation Eval é um conjunto de dados para avaliar classificadores de conteúdo em português brasileiro. O conjunto contém 3.764 textos únicos e 12 categorias de moderação. A classificação é multirrótulo: cada texto pode pertencer a mais de uma categoria.
+PT-BR Moderation Eval é um conjunto de dados para avaliar classificadores de conteúdo em português brasileiro. O conjunto contém 3.764 textos únicos e 12 categorias de moderação. A classificação é multirrótulo, ou seja, cada texto pode pertencer a mais de uma categoria.
 
 Os textos incluem linguagem informal, abreviações, gírias e neologismos. O conjunto combina textos traduzidos, textos com anotação manual e textos sintéticos.
 
