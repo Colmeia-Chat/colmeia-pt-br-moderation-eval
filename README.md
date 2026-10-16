@@ -22,6 +22,12 @@ A avaliação externa do V1 utilizou a configuração `default`, revisão [`4505
 
 O [registro da versão avaliada](docs/versao_avaliada_v1.json) contém o hash do dataset, o hash dos pesos e os limiares utilizados. A avaliação manteve os limiares do checkpoint. Não houve treinamento ou recalibração no conjunto externo.
 
+## Modelo
+
+O checkpoint V1 está em [HRB25/pt-br-moderation-bertimbau-v1](https://huggingface.co/HRB25/pt-br-moderation-bertimbau-v1).
+
+O cartão reúne a arquitetura, os limiares e o resultado da avaliação. Essa medição usa a configuração atual do dataset, com 2.202 textos e sem as traduções, na revisão [`949b41541412abf718987bbec166a904b59587f1`](https://huggingface.co/datasets/HRB25/pt-br-moderation-eval/tree/949b41541412abf718987bbec166a904b59587f1).
+
 ## Composição
 
 | Origem | Textos |
